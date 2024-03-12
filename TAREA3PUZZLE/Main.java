@@ -5,8 +5,8 @@ public class Main {
         long startTime = System.currentTimeMillis();
         Puzzle8 juego = new Puzzle8("123450678"); // Un ejemplo de estado inicial
 
-        System.out.println("Resolviendo con BFS:");
-        juego.busquedaEnAnchura();
+        //System.out.println("Resolviendo con BFS:");
+        //juego.busquedaEnAnchura();
         System.out.println("\nResolviendo con DFS:");
         juego.busquedaEnProfundidad();
         
