@@ -37,7 +37,7 @@ def astar(tablero, inicio, fin, serpiente):
             while nodo_actual:
                 camino.append(nodo_actual.posicion)
                 nodo_actual = nodo_actual.padre
-            return camino[::-1]  # Return reversed path
+            return camino[::-1]  
         
         lista_cerrada.add(nodo_actual)
         
